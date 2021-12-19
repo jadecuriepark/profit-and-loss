@@ -12,15 +12,15 @@ public class Assignment4 {
 		System.out.println("Welcome to Starr's profit and loss calculator!");
 		
 		System.out.println("\nConfigure Hats:");
-		System.out.print("selling price: ");
+		System.out.print("Selling Price: ");
 		double hPrice = input.nextDouble();
-		System.out.print("cost to company: ");
+		System.out.print("Cost to Company: ");
 		double hCost = input.nextDouble();
 		
 		System.out.println("\nConfigure Bottles:");
-		System.out.print("selling price: ");
+		System.out.print("Selling Price: ");
 		double bPrice = input.nextDouble();
-		System.out.print("cost to company: ");
+		System.out.print("Cost to Company: ");
 		double bCost = input.nextDouble();
 		
 		
@@ -46,7 +46,6 @@ public class Assignment4 {
 				
 				newOrder.addOrderItem(newOI);
 				
-
 			} else if (name.equals("bottle")) {
 				
 				System.out.print("Order " + (i+1) + " - Quantity? ");
